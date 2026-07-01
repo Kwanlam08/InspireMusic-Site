@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#eef5ec" />
+    <meta
+      name="description"
+      content="灵感音乐是一款拥有 Liquid Glass 视觉、智能歌词、音乐日记和 AI 灵感推荐的本地 Android 音乐播放器。"
+    />
+    <meta property="og:title" content="灵感音乐 Inspire Music" />
+    <meta
+      property="og:description"
+      content="把本地音乐做得更像一个会呼吸的小宇宙。"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/screens/light/inspire-home.png" />
+    <title>灵感音乐 Inspire Music</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="ambient ambient-a"></div>
+    <div class="ambient ambient-b"></div>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="灵感音乐首页">
+        <span class="brand-mark">♪</span>
+        <span>
+          <strong>灵感音乐</strong>
+          <small>Inspire Music</small>
+        </span>
+      </a>
+
+      <nav class="nav-links" aria-label="页面导航">
+        <a href="#story">由来</a>
+        <a href="#features">功能</a>
+        <a href="#screens">截图</a>
+        <a href="#download">下载</a>
+      </nav>
+
+      <button class="theme-toggle" type="button" aria-label="切换浅色或深色模式">
+        <span class="toggle-track">
+          <span class="toggle-thumb"></span>
+        </span>
+        <span class="theme-text">浅色</span>
+      </button>
+    </header>
+
+    <main id="top">
+      <section class="hero section-shell">
+        <div class="hero-copy">
+          <p class="eyebrow">Local-first Android music player</p>
+          <h1>把你的本地音乐，放进一个会呼吸的玻璃房间。</h1>
+          <p class="hero-lead">
+            灵感音乐不是一张冷冰冰的歌曲列表。它会安静收好你的专辑、歌词、播放列表和听歌记忆，也会在你不知道听什么的时候，递给你一点新的灵感。
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="https://github.com/Kwanlam08/InspireMusic-Releases/releases/latest">
+              下载 APK
+            </a>
+            <a class="button secondary" href="#screens">看看界面</a>
+          </div>
+          <div class="hero-stats" aria-label="应用亮点数字">
+            <span><strong>Liquid</strong> Glass 视觉</span>
+            <span><strong>AI</strong> 灵感歌单</span>
+            <span><strong>Local</strong> 本地优先</span>
+          </div>
+        </div>
+
+        <div class="hero-device" aria-label="灵感音乐应用截图">
+          <div class="device-glow"></div>
+          <div class="phone-frame">
+            <picture>
+              <source srcset="assets/screens/dark/inspire-home.png" media="(prefers-color-scheme: dark)" />
+              <img
+                class="theme-shot hero-shot"
+                data-light="assets/screens/light/inspire-home.png"
+                data-dark="assets/screens/dark/inspire-home.png"
+                src="assets/screens/light/inspire-home.png"
+                alt="灵感音乐灵感页截图"
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
+
+      <section id="story" class="story section-shell">
+        <div class="section-heading">
+          <p class="eyebrow">Why Inspire Music</p>
+          <h2>“灵感”不是装饰词，是它存在的理由。</h2>
+        </div>
+        <div class="story-grid">
+          <article class="glass-card story-main">
+            <h3>它从一个很简单的愿望开始</h3>
+            <p>
+              本地音乐播放器不应该只是“能播放”。它应该有一点温度：专辑封面要漂亮，歌词要跟得上，底栏要像真实玻璃一样轻，听过的歌也应该被记住。
+            </p>
+            <p>
+              所以灵感音乐把资料库、正在播放、歌词、日记、备份和 AI 推荐放到同一个体验里。它既是播放器，也是一个帮你重新遇见音乐的地方。
+            </p>
+          </article>
+          <article class="glass-card mini-card">
+            <span class="card-icon">AI</span>
+            <h3>一句话生成歌单</h3>
+            <p>“下雨天散步”“睡前安静一点”“运动前热身”，把心情交给它。</p>
+          </article>
+          <article class="glass-card mini-card">
+            <span class="card-icon">LRC</span>
+            <h3>歌词更聪明</h3>
+            <p>本地、内嵌、在线歌词和缓存管理，都尽量不打扰你的播放。</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="features" class="features section-shell">
+        <div class="section-heading">
+          <p class="eyebrow">Built for listening</p>
+          <h2>不是堆功能，是把听歌这件事做顺。</h2>
+        </div>
+        <div class="feature-grid">
+          <article class="glass-card feature-card">
+            <h3>Liquid Glass</h3>
+            <p>底栏、mini 播放器、卡片和按钮统一成高通透玻璃视觉，浅色和深色模式都有自己的质感。</p>
+          </article>
+          <article class="glass-card feature-card">
+            <h3>本地资料库</h3>
+            <p>歌曲、专辑、艺人、播放列表、我的喜爱集中管理，适合认真整理音乐的人。</p>
+          </article>
+          <article class="glass-card feature-card">
+            <h3>正在播放</h3>
+            <p>专辑封面、进度、音量、歌词和播放队列连成一个沉浸式页面，听歌时少一点打断。</p>
+          </article>
+          <article class="glass-card feature-card">
+            <h3>音乐日记</h3>
+            <p>日记、周记、月记记录最近听过的歌、艺人和流派，把听歌变成一种可以回看的记忆。</p>
+          </article>
+          <article class="glass-card feature-card">
+            <h3>数据备份</h3>
+            <p>播放列表、听歌记录和最近播放可以导出导入，换设备或重装时不必从零开始。</p>
+          </article>
+          <article class="glass-card feature-card">
+            <h3>存储空间</h3>
+            <p>像系统储存空间一样看清本地音乐占用，知道自己的音乐收藏到底有多大。</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="screens" class="screens section-shell">
+        <div class="section-heading">
+          <p class="eyebrow">Light and dark</p>
+          <h2>浅色清透，深色沉浸。切一下，截图也会跟着换。</h2>
+        </div>
+        <div class="screen-grid">
+          <figure class="screen-card large">
+            <img
+              class="theme-shot"
+              data-light="assets/screens/light/now-playing.png"
+              data-dark="assets/screens/dark/now-playing.png"
+              src="assets/screens/light/now-playing.png"
+              alt="正在播放页面"
+            />
+            <figcaption>正在播放</figcaption>
+          </figure>
+          <figure class="screen-card">
+            <img
+              class="theme-shot"
+              data-light="assets/screens/light/ai-results.png"
+              data-dark="assets/screens/dark/ai-results.png"
+              src="assets/screens/light/ai-results.png"
+              alt="AI 推荐结果"
+            />
+            <figcaption>AI 推荐</figcaption>
+          </figure>
+          <figure class="screen-card">
+            <img
+              class="theme-shot"
+              data-light="assets/screens/light/lyrics.png"
+              data-dark="assets/screens/dark/lyrics.png"
+              src="assets/screens/light/lyrics.png"
+              alt="歌词和歌词缓存"
+            />
+            <figcaption>歌词体验</figcaption>
+          </figure>
+          <figure class="screen-card">
+            <img
+              class="theme-shot"
+              data-light="assets/screens/light/library.png"
+              data-dark="assets/screens/dark/library.png"
+              src="assets/screens/light/library.png"
+              alt="资料库页面"
+            />
+            <figcaption>资料库</figcaption>
+          </figure>
+          <figure class="screen-card">
+            <img
+              class="theme-shot"
+              data-light="assets/screens/light/diary.png"
+              data-dark="assets/screens/dark/diary.png"
+              src="assets/screens/light/diary.png"
+              alt="音乐日记"
+            />
+            <figcaption>音乐日记</figcaption>
+          </figure>
+          <figure class="screen-card">
+            <img
+              class="theme-shot"
+              data-light="assets/screens/light/settings.png"
+              data-dark="assets/screens/dark/settings.png"
+              src="assets/screens/light/settings.png"
+              alt="设置页面"
+            />
+            <figcaption>设置</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section id="download" class="download section-shell">
+        <div class="download-panel glass-card">
+          <div>
+            <p class="eyebrow">Ready to listen</p>
+            <h2>下载灵感音乐，把本地音乐重新点亮。</h2>
+            <p>
+              公开 APK 会放在 GitHub Releases。核心播放、本地资料库、歌词缓存、音乐日记和数据备份都优先在设备本机完成。
+            </p>
+          </div>
+          <div class="download-actions">
+            <a class="button primary" href="https://github.com/Kwanlam08/InspireMusic-Releases/releases/latest">
+              GitHub Release
+            </a>
+            <a class="button secondary" href="https://github.com/Kwanlam08/InspireMusic-Releases">
+              查看项目页
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>灵感音乐 Inspire Music</span>
+      <span>Made for local music, lyrics and late-night inspiration.</span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
